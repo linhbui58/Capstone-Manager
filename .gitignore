@@ -1,0 +1,28 @@
+# Uploaded files (user content)
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Environment / config overrides
+.env
+config.local.php
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# PHP temp
+*.log
+*.cache
+
+# Node (if ever used)
+node_modules/
+
+# XAMPP / local server
+*.bak
